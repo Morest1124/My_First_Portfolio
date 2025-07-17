@@ -1,0 +1,26 @@
+* {
+    background-color: whitesmoke;
+    color: black;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.nav {
+    display: flex;
+    direction: ltr;
+    justify-content: center;
+    left: 50%;
+
+}
+.nav ul li {
+    display: flex;
+    left: 0;
+}
+footer p {
+    text-align: center;
+    color: cornflowerblue;
+}
