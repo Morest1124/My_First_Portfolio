@@ -1,26 +1,26 @@
-* {
-    background-color: whitesmoke;
-    color: black;
-}
 body {
+    background-color: rgb(243, 246, 248);
+    color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 10px;
-    margin: 10px;
-    border: 1px solid black;
 }
-
 .nav {
-    display: flex;
-    direction: ltr;
-    justify-content: center;
-    left: 50%;
-
+    display: inline-flex;
+    justify-content: space-between;
 }
 .nav ul li {
     display: flex;
-    left: 0;
+    justify-content: space-between;
+    padding: 10px;
+    top: 0%;
+}
+span {
+    color: rgb(92, 19, 226);
+}
+img {
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
 }
 footer p {
     text-align: center;
-    color: cornflowerblue;
 }
